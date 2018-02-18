@@ -8,8 +8,7 @@ import os
 class PyMeetups:
     def __init__(self):
         self.calendar_id = "j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com"
-        self.SERVICE_ACCOUNT_FILE  = ("{}/project.json".format(os.path.dirname(os.path.realpath(__file__))))
-        self.SERVICE_ACCOUNT_FILE  = ("{}/project.json".format(os.path.dirname(os.path.realpath(__file__))))
+        self.SERVICE_ACCOUNT_FILE = ("{}/project.json".format(os.path.dirname(os.path.realpath(__file__))))
         self.SCOPES = [
             'https://www.googleapis.com/auth/calendar',
             'https://www.googleapis.com/auth/calendar.readonly',
@@ -38,10 +37,11 @@ class PyMeetups:
         for event in events:
             d = {}
             for key, value in event.items():
-                if key in headers_to_show and isinstance(value, str):
-                    d[key] = value
-                elif key in headers_to_show and not isinstance(value, str):
-                    d[key] = value['date']
+                if key in headers_to_show:
+                    if key == headers_to_show[2]:
+                        d[key] = value['date']
+                    else:
+                        d[key] = value
 
             if len(d):
                 filtered_events.append(d)
