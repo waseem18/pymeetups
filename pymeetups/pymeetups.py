@@ -56,7 +56,7 @@ class PyMeetups:
         rows = [i.values() for i in filtered_events]
         table = texttable.Texttable()
         table.header(filtered_events[0].keys())
-        table.set_cols_align(["l", "r", "c"])
-        table.set_cols_valign(["t", "m", "b"])
+        table.set_cols_align(["l", "l", "l"])
+        table.set_cols_valign(["m", "m", "m"])
         table.add_rows(rows,header=False)
         print(table.draw())

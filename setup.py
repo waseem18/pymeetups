@@ -4,16 +4,16 @@ from setuptools import setup, find_packages
 
 setup(
     name = "pymeetups",
-    version = "1.1.0",
+    version = "1.1.1",
     author = "Wasim Thabraze",
     author_email = "wasim@thabraze.me",
     description = "Find information about future Pycon conferences and meetups through your terminal",
     license = "MIT",
     keywords = "pymeetups",
     install_requires = ['Click',
-                        'tabulate',
                         'google-auth-httplib2',
                         'google-api-python-client',
+                        'texttable'
                         ],
     url = "https://github.com/waseem18/pymeetups",
     packages=find_packages(include=['pymeetups']),
