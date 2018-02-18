@@ -2,7 +2,7 @@
 
 Find information about upcoming Python conferences and meetups through your terminal
 
-![PyMeetups screenshot](https://image.ibb.co/jUjMd7/carbon_1.png)
+![PyMeetups screenshot](https://image.ibb.co/hcK9WS/carbon_1_1.png)
 
 ## Installation
 `pip install pymeetups`
