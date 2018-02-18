@@ -4,7 +4,7 @@ from .pymeetups import PyMeetups
 
 @click.command()
 def main():
-    PyMeetups().populate_tabulate()
+    PyMeetups().populate_texttable()
     return 0
 
 

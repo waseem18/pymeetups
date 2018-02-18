@@ -1,10 +1,9 @@
-import os
 from setuptools import setup, find_packages
 
 
 setup(
     name = "pymeetups",
-    version = "1.1.1",
+    version = "1.1.2",
     author = "Wasim Thabraze",
     author_email = "wasim@thabraze.me",
     description = "Find information about future Pycon conferences and meetups through your terminal",
