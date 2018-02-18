@@ -8,8 +8,6 @@ Find information about future Pycon conferences and meetups through your termina
 ## Usage
 Run the command `pymeetups` which displays information of upcoming Pycon conferences.
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
-
 ### Future 
 - [ ] Apart from Pycon conferences show information about Python meetups.
 - [ ] Feature to filter the list of conferences/meetups with the commands `pymeetups nearme` and `pymeetups <region name>` 
