@@ -1,6 +1,6 @@
 # PyMeetups
 
-Find information about upcoming Python conferences and meetups through your terminal
+Find information about upcoming Python conferences and meetups through your terminal.
 
 ![PyMeetups screenshot](https://image.ibb.co/hcK9WS/carbon_1_1.png)
 
